@@ -71,8 +71,8 @@ import java.util.Scanner;
 	        Bank bank = new Bank();
 
 	        // Adding a few accounts
-	        bank.addAccount("101", "John Doe", 1000.0);
-	        bank.addAccount("102", "Jane Smith", 1500.0);
+	        bank.addAccount("101", "Rohan Singh", 1000.0);
+	        bank.addAccount("102", "Jack Sherif", 1500.0);
 
 	        // Performing transactions
 	        bank.performTransaction("101", 500.0);
@@ -83,5 +83,8 @@ import java.util.Scanner;
 	        bank.displayAccountInfo("102");
 	    }
 	}
+
+
+
 
 
